@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url(image/wallpaperflare.com_wallpaper.jpg) no-repeat;
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+}
+
+.box {
+  width: 90%; /* Adjust the width to make it responsive */
+  max-width: 450px; /* Set a maximum width */
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+}
+
+.box-img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.box h1 {
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+
+.box h5 {
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+
+.box p {
+  text-align: center;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.box li {
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+}
+
+.box li a {
+  color: white;
+  text-decoration: none;
+  font-size: 30px; /* Adjust the font size for smaller screens */
+  transition: all ease-in-out 250ms;
+}
+
+/* Media query for screens smaller than 768px (adjust as needed) */
+@media (max-width: 768px) {
+  .box {
+    padding: 20px;
+  }
+  
+  .box-img {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .box h1 {
+    font-size: 30px;
+  }
+  
+  .box h5 {
+    font-size: 18px;
+  }
+  
+  .box li a {
+    font-size: 24px;
+  }
+}
