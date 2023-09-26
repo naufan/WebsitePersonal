@@ -5,7 +5,10 @@ body {
   padding: 0;
   background: url(image/wallpaperflare.com_wallpaper.jpg) no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   font-family: "Poppins", sans-serif;
+}
+
 }
 
 .box {
